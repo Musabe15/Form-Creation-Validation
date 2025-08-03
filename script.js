@@ -27,10 +27,10 @@ document.addEventListener('DOMContentLoaded', function () {
     feedbackDiv.style.display ="block";
     if (isValid) {
       feedbackDiv.textContent = 'Registration successful!';
-      feedbackDiv.style.display = 'green';
+      feedbackDiv.style.display = "#28a745";
     } else {
       feedbackDiv.textContent = messages.join('<br>');
-      feedbackDiv.style.display = 'red';
+      feedbackDiv.style.display = "#dc3545";
     }
   })
 });
