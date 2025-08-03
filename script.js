@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
       feedbackDiv.textContent = 'Registration successful!';
       feedbackDiv.style.display = "#28a745";
     } else {
-      feedbackDiv.textContent = messages.join('<br>');
+      feedbackDiv.innerHTML = messages.join('<br>');
       feedbackDiv.style.display = "#dc3545";
     }
   })
