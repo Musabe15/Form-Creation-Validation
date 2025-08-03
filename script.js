@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
       messages.push('Password must be at least 8 characters long');
     }
 
-    feedbackDiv.style.display ="block";
+    feedbackDiv.style.display = "block";
     if (isValid) {
       feedbackDiv.textContent = 'Registration successful!';
       feedbackDiv.style.display = "#28a745";
